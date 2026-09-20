@@ -3,7 +3,7 @@ from tools import fakers
 
 
 create_user_payload = {
-  "email": fakers.get_random_email(),
+  "email": fakers.fake.email(),
   "password": "mangel",
   "lastName": "string",
   "firstName": "string",

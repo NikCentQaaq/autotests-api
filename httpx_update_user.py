@@ -3,7 +3,7 @@ from tools import fakers
 
 
 create_user_payload = {
-  "email": fakers.get_random_email(),
+  "email": fakers.fake.email(),
   "password": "mangel",
   "lastName": "string",
   "firstName": "string",
@@ -28,7 +28,7 @@ print('Login User Data:', login_response_data)
 
 
 patch_user_payload = {
-  "email": fakers.get_random_email(),
+  "email": fakers.fake.email(),
   "lastName": "string",
   "firstName": "string",
   "middleName": "string"
