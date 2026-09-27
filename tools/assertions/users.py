@@ -1,8 +1,6 @@
 from urllib import request
 
-from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema, \
-    UserSchema
-from tests.conftest import UserFixture
+from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema, GetUserResponseSchema, UserSchema
 from tools.assertions.base import assert_equal
 
 
