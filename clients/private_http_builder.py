@@ -15,6 +15,7 @@ class AuthenticationUserSchema(BaseModel, frozen=True):  # Добавили па
     email: str
     password: str
 
+
 @lru_cache(maxsize=None)  # Кешируем возвращаемое значение
 def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     authentication_client = get_authentication_client()
