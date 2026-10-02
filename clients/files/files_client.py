@@ -33,8 +33,9 @@ class FilesClient(APIClient):
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),
             #Файл загружается как отдельный параметр, а не через form data.
             #  exclude={'upload_file'} ИСКЛЮЧАЕМ
-            files={"upload_file": open(request.upload_file, 'rb')}
-        )
+            files = {"upload_file": request.upload_file.read_bytes()}
+        )   # Если тип pydantic. FilePath - использовать встроенный метод read_bytes(),
+        # чтобы сразу получить содержимое файла:
 
     @allure.step("Delete file by id {file_id}")
     def delete_file_api(self, file_id: str) -> Response:
