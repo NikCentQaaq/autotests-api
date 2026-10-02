@@ -1,5 +1,8 @@
 from httpx import Client
 
+from clients.event_hooks import curl_event_hook
+
+
 # публичный клиент = НЕ нуждается в каких-то заголовках
 
 
@@ -10,7 +13,11 @@ def get_public_http_client() -> Client:
 
     :return: Готовый к использованию объект httpx.Client.
     """
-    return Client(timeout=100, base_url="http://127.0.0.1:8000")
+    return Client(
+        timeout=100,
+        base_url="http://127.0.0.1:8000",
+        event_hooks={"request": [curl_event_hook]}
+    )
 
 
 
