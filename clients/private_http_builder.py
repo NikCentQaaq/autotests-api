@@ -5,11 +5,10 @@ from httpx import Client
 from pydantic import BaseModel
 
 from clients.authentication.authentication_client import get_authentication_client
-# Импортируем модель LoginRequestSchema
 from clients.authentication.authentication_schema import LoginRequestSchema
-from functools import lru_cache  # Импортируем функцию для кеширования
+from functools import lru_cache
 
-from clients.event_hooks import curl_event_hook
+from clients.event_hooks import curl_event_hook, log_request_event_hook, log_response_event_hook
 from config import settings
 
 
@@ -32,5 +31,8 @@ def get_private_http_client(user: AuthenticationUserSchema) -> Client:
         base_url=settings.http_client.client_url,
         # trust_env=False, # не использовать прокси, работать напрямую (игнорируя впн)
         headers={"Authorization": f"Bearer {login_response.token.access_token}"},
-        event_hooks={"request": [curl_event_hook]}
+        event_hooks={
+            "request": [curl_event_hook, log_request_event_hook],  # Логируем исходящие HTTP-запросы
+            "response": [log_response_event_hook]  # Логируем полученные HTTP-ответы
+        }
     )
