@@ -117,15 +117,15 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
     expected = ValidationErrorResponseSchema(
         details=[
             ValidationErrorSchema(
-                type="uuid_parsing",
-                input="incorrect-file-id",
+                type="string_too_short",
+                input="",
                 ctx={
-                    "error": "invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1"
+                    "min_length": 1
                 },
-                msg="Input should be a valid UUID, invalid character: expected an optional prefix of `urn:uuid:` followed by [0-9a-fA-F-], found `i` at 1",
+                msg="String should have at least 1 character",
                 loc=[
-                    "path",
-                    "file_id"
+                    "body",
+                    "directory"
                 ]
             )
         ]
