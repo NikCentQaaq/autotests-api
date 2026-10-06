@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA1OjU5OjMwLjA3MjM5OSIsInVzZXJfaWQiOiI2MGM0YzA1Ni0zMWNiLTQ5MTItODQ4Mi01M2E3YjU5MTczZjYifQ.bMSHue8xkbv9wHbB9XADa3r_MHueqMl8s8wmm7CKEB4' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Create dream difference up man.","maxScore":88,"minScore":21,"description":"Stay present analysis may who conference feel word. Building subject instead assume fund choice music down. Today partner stay near with him toward.","estimatedTime":"10 weeks","previewFileId":"e0b7c9e7-2bc0-484d-a3ab-50831a33a865","createdByUserId":"0f24d95b-fa19-4bd4-8c30-4109c2f6bb0c"}'

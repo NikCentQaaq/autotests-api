@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA1OjU5OjMwLjY1OTM2NSIsInVzZXJfaWQiOiI2YWVhZTdlNC01ODU3LTQ4Y2MtOTlmZi0zOGFiNzg3MzM0ZGUifQ.lWEfK5JYGhF-uzrxvVfXPa6Pf7rCxoyVAyCBQgkdRyY' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Song opportunity support listen yard member.","maxScore":55,"minScore":6,"description":"System theory leader off soon. Present high tend course radio into think. Foreign response piece prove.\nEver determine drop religious past order involve.","estimatedTime":"10 weeks","previewFileId":"5f40bda5-66a7-4694-a96d-08f68b9e411b","createdByUserId":"e47954ad-70d0-4d20-a0ea-08ca72967f8f"}'
