@@ -9,7 +9,6 @@ from clients.exercises.exercises_client import ExercisesClient
 from clients.exercises.exercises_schema import CreateExerciseRequestSchema, CreateExerciseResponseSchema, \
     GetExercisesQuerySchema, GetExerciseResponseSchema, UpdateExerciseRequestSchema, UpdateExerciseResponseSchema, \
     GetExercisesResponseSchema
-from differents.httpx_client import response
 from fixtures.courses import CourseFixture
 from fixtures.exercises import ExerciseFixture
 from tools.allure.epics import AllureEpic
