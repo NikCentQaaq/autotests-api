@@ -53,6 +53,15 @@ jobs:
           python -m pip install --upgrade pip   
           pip install -r requirements.txt 
 
+
+      - name: Create .env
+        run: |
+          echo 'TEST_DATA.IMAGE_PNG_FILE=./testdata/files/img.png' >> .env
+          echo 'HTTP_CLIENT.URL=http://localhost:8000/' >> .env
+          echo 'HTTP_CLIENT.TIMEOUT=100' >> .env
+      
+
+
       # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
       # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
       - name: Run API tests with pytest and generate Allure results
