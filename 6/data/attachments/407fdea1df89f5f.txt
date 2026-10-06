@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjExOjE1LjYxMzU3NiIsInVzZXJfaWQiOiJkM2VhNzgwNC0yNzQ3LTQ3M2MtYTM4Yi1lN2JjMmNhZmMxODYifQ.wgkFEenkQ4WXtQnXPKmift0IhVLP8eBYGsgdqFytXSU' \
+  -H 'content-length: 419' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whole peace today race seat light.","maxScore":79,"minScore":15,"description":"Develop understand evidence. Treatment measure local leave article couple artist. On born painting feeling. Opportunity reality then because any.\nEat nothing physical case first beautiful.","estimatedTime":"10 weeks","previewFileId":"38ea6b79-fdf1-4ffa-946b-12186d21f0b9","createdByUserId":"cf5a3f6a-bfcd-4119-81a6-9e5a264f69d5"}'

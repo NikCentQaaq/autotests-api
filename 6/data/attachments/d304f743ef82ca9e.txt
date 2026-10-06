@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjExOjE0LjQzMzg3OSIsInVzZXJfaWQiOiI4Y2RiYjMzZS05YTU3LTQ4NDEtYjZmYS01MGZmYzAzZTJhMmYifQ.u8qv-gjaB4ok-M6cwFK9ceyHSrDpQFrJEa8JBrlSZNQ' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down however leg sea.","maxScore":87,"minScore":11,"description":"Care teach word skill national shoulder. Plan computer commercial drive many still once lawyer. Stand memory son behavior. You project painting yourself past appear.","estimatedTime":"3 weeks","previewFileId":"53c7f3d6-b916-47b7-b808-303b6b6a3d9c","createdByUserId":"8853f527-ba43-44e7-bf4d-e3173d1d4c85"}'

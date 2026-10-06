@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjExOjE2Ljc3MjA3MyIsInVzZXJfaWQiOiJkZjhjODUwNS1lYzM2LTQ5YjAtODFmMS01OWQ5ZmY1ZmE0YzAifQ.qQAjLUXimRuHKwAd318vqLCFb5wd135-gq97pt5XZ1c' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Health list manager coach.","maxScore":66,"minScore":16,"description":"Child focus detail major project door.\nMove manager me gun agreement father. Participant value baby end way civil. Account PM site light day message.","estimatedTime":"7 weeks","previewFileId":"e7449c25-dd05-4203-bb8a-490c9a842a50","createdByUserId":"1c318b03-a2d5-4015-812e-bbe00effb67c"}'
