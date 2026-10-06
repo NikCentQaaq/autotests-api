@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE4Ljc3ODY3MyIsInVzZXJfaWQiOiIzMTRmNWM3MS03Yjc0LTQ2ZDAtYjY0NS05NzczZjFhNWFjZmMifQ.SLFBgpI96iqYYui_BeDHDz67ekLXAQf9AnDqtuDIHUk' \
+  -H 'content-length: 226' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pull tend education charge often organization sense.","courseId":"3e3f34c3-d248-4810-afc1-bc15eb1a0bb1","maxScore":97,"minScore":13,"orderIndex":26,"description":"Ability exactly research.","estimatedTime":"7 weeks"}'

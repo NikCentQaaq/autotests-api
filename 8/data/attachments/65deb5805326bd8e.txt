@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE3LjQzMjM1NSIsInVzZXJfaWQiOiJlOTBiNzEwZS1iOTY5LTQzZTAtOWQzZC0yZjcyMmE0Yjk1ZDYifQ.BTc9-mZbIloHe_6eF4WUe2UMxmcYEhwGQmn3tCLK3b4' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep treatment ask contain country.","maxScore":86,"minScore":22,"description":"Task discussion soon. Professional meet road federal improve realize ask.\nBall result arrive much plan box. Rate Mrs maintain experience represent huge face.","estimatedTime":"10 weeks","previewFileId":"aeb39f14-44f9-48d6-a70e-cfb6a6f219f1","createdByUserId":"e90b710e-b969-43e0-9d3d-2f722a4b95d6"}'

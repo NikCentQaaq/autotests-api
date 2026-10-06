@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE4Ljc3ODY3MyIsInVzZXJfaWQiOiIzMTRmNWM3MS03Yjc0LTQ2ZDAtYjY0NS05NzczZjFhNWFjZmMifQ.SLFBgpI96iqYYui_BeDHDz67ekLXAQf9AnDqtuDIHUk' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yet save better.","maxScore":58,"minScore":14,"description":"Sometimes pay option civil value. A best sell culture produce reveal respond.\nBill team company nature. Have system hold interview life consumer anything body.\nGame inside although letter.","estimatedTime":"10 weeks","previewFileId":"83d8c898-a812-4282-aecf-1517d1b8ee40","createdByUserId":"314f5c71-7b74-46d0-b645-9773f1a5acfc"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE1LjQxMDg2MSIsInVzZXJfaWQiOiI0MTRhYmI4Ny1lOTdhLTQ3MzQtOGFhMC1kMDVhZjcxYTU0M2QifQ.oH4PPxee7QgbhRI729u9Pr65hYOn47LyTwv98Ovhrcg' \
+  -H 'content-length: 382' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test case wear weight.","maxScore":60,"minScore":22,"description":"Game agreement history attack person sometimes garden. Various senior pretty family alone raise finally catch. Writer avoid shake brother serve guy business general.","estimatedTime":"3 weeks","previewFileId":"516f1412-f885-4b43-9e31-2ce49dd1d3cb","createdByUserId":"414abb87-e97a-4734-8aa0-d05af71a543d"}'

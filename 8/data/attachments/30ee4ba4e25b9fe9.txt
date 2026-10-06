@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f04ebc02-b20d-42de-b28a-4b1799dc321a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE2Ljc0MTk0OSIsInVzZXJfaWQiOiI5MTYyODhhZC1hNzQyLTRkZjktYTU3OC1jYzhjNzMwZTcyNjkifQ.v4WP1LszRtVsqYAyobp2Sph5K5QWLl1hWhWaRkXRDek' \
+  -H 'content-length: 166' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economy attorney staff laugh stop door.","maxScore":61,"minScore":26,"orderIndex":93,"description":"Process agency shake course.","estimatedTime":"1 weeks"}'

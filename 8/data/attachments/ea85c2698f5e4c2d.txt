@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE2Ljc0MTk0OSIsInVzZXJfaWQiOiI5MTYyODhhZC1hNzQyLTRkZjktYTU3OC1jYzhjNzMwZTcyNjkifQ.v4WP1LszRtVsqYAyobp2Sph5K5QWLl1hWhWaRkXRDek' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure shake chance set until night.","maxScore":93,"minScore":7,"description":"Finish those manager until pull identify. Most data institution close above information capital.\nFact watch sure yeah central. Very culture woman someone buy.","estimatedTime":"2 weeks","previewFileId":"ea991ce7-d57e-431f-a365-8efb2ce30ac6","createdByUserId":"916288ad-a742-4df9-a578-cc8c730e7269"}'

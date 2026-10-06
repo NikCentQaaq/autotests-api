@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/817a4879-8cee-4bbd-8fc6-dc61d544a764' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE0Ljc2MDQwNSIsInVzZXJfaWQiOiJiYTA4N2JkNC1mMDgzLTRkODAtODNiNS05NDE3MDllOWEyODYifQ.g62DhtTh9LiqqVr2hHRwqgy7bGKGmzg0cVihjDMOn08' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Course person technology stuff him organization.","maxScore":71,"minScore":11,"description":"Look still read view series customer. Much practice not marriage meet support.\nMay true house far truth. You probably force fall provide economy task name.","estimatedTime":"3 weeks"}'

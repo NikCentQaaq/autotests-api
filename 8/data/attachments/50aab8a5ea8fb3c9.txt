@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE2Ljc0MTk0OSIsInVzZXJfaWQiOiI5MTYyODhhZC1hNzQyLTRkZjktYTU3OC1jYzhjNzMwZTcyNjkifQ.v4WP1LszRtVsqYAyobp2Sph5K5QWLl1hWhWaRkXRDek' \
+  -H 'content-length: 218' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Assume bad state side back use set.","courseId":"f44b5749-4764-42d6-bb61-16fbc38db8a3","maxScore":71,"minScore":8,"orderIndex":26,"description":"Country hold enter eat leader seem.","estimatedTime":"2 weeks"}'

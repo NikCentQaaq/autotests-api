@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE0Ljc2MDQwNSIsInVzZXJfaWQiOiJiYTA4N2JkNC1mMDgzLTRkODAtODNiNS05NDE3MDllOWEyODYifQ.g62DhtTh9LiqqVr2hHRwqgy7bGKGmzg0cVihjDMOn08' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Represent dream hotel hear choose yeah.","maxScore":81,"minScore":15,"description":"Former couple community blood seek a base. Score its continue us here and.\nWhy today conference same plant movie tough. Leader give draw.","estimatedTime":"2 weeks","previewFileId":"a3572e26-3291-42d5-a3c5-07ddd6a894d9","createdByUserId":"ba087bd4-f083-4d80-83b5-941709e9a286"}'

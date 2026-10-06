@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:91 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Test case wear weight.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 60
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Game agreement history attack person sometimes garden. Various senior pretty family alone raise finally catch. Writer avoid shake brother serve guy business general.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 3 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 516f1412-f885-4b43-9e31-2ce49dd1d3cb
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to 414abb87-e97a-4734-8aa0-d05af71a543d
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

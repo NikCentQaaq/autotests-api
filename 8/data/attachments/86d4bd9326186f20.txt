@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE2LjA5MjE0NSIsInVzZXJfaWQiOiI0MmJjMmRmMy04ZTRhLTRjYjAtOWU5YS00NzE5MTE5ZWIzMjEifQ.rMq4WyUkgx5tH6TA6ABWoVHHf04KDanaUMLNUYpWYcs' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Decision American suffer leave.","maxScore":53,"minScore":14,"description":"Continue him sister effect guy step no practice. Bed similar hospital chance.\nPoint tend identify enough quality five.\nCulture bill PM whose. Really participant until ground instead audience throw.","estimatedTime":"10 weeks","previewFileId":"a868ad0f-48e5-46f8-a481-23a1d87c15ca","createdByUserId":"42bc2df3-8e4a-4cb0-9e9a-4719119eb321"}'

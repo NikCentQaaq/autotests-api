@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE4LjA4MjkyNyIsInVzZXJfaWQiOiI5MTI3YzJlMC03ZTA3LTQ5MTYtOWFhNy02M2MyOTViNDRkMzkifQ.KIArYv-iUr-xm0YsQ-pPXBoKkc3BF76r_MyzPew9bgo' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass charge admit ready own operation.","maxScore":81,"minScore":14,"description":"Compare indicate thus always. Second usually pass assume turn own. All avoid environment large develop.\nAgreement try at father. Conference goal break instead mean poor seem meet.","estimatedTime":"4 weeks","previewFileId":"d3754fc7-c89f-490c-b3de-9d7443cd91a1","createdByUserId":"9127c2e0-7e07-4916-9aa7-63c295b44d39"}'

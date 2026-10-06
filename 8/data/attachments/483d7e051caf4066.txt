@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDE0OjU2OjE0LjA0MTQ1NSIsInVzZXJfaWQiOiJjZmZmZmVkMi05YTRjLTRiNzgtYmFkYi1kYjhmODJlNmY5ZjQifQ.rh77zpbTxWbYtCumbhudk0L3X49WdbV3pSdrrmnb4eg' \
+  -H 'content-length: 332' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question pick remember conference.","maxScore":94,"minScore":10,"description":"Ready form note year today yourself water. Note she tend either ready. Bank already if authority alone.","estimatedTime":"1 weeks","previewFileId":"2884db40-c334-4510-802e-0cefc2be153e","createdByUserId":"cffffed2-9a4c-4b78-badb-db8f82e6f9f4"}'
