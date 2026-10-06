@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjI1OjExLjIyMjcxMiIsInVzZXJfaWQiOiI4ZmMxY2UzZS0wNGYyLTQ0ODQtYTBlMi1jMzA3OGI0YTliY2EifQ.RRYWHkpctIJdYff0ajwlyzaaRPw5Z5dtivGYokz4oHI' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leave nice artist imagine.","maxScore":69,"minScore":30,"description":"Model political senior television that watch. Assume help yeah like water shoulder. Produce yes mouth still miss east.","estimatedTime":"2 weeks","previewFileId":"6f7e285b-63c7-420f-9e04-e9079d4060f2","createdByUserId":"4d88f02a-1aa8-4915-8134-9d6cecafeff2"}'

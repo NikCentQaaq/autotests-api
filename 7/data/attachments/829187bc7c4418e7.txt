@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjI1OjA5LjE2NTc0NiIsInVzZXJfaWQiOiIzNmVhMDhiYi1mMGMxLTQ3ZDctYTdkZS04ODhhOTZiMTI3NDEifQ.vdpmNKT8yTz0lqwdKoboEUA8QC2ptHSnmld-bD-K2N4' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Coach miss hope.","maxScore":59,"minScore":14,"description":"Station raise bring perform. Art analysis one born south. Again scientist easy blood theory right store. They have her grow law.","estimatedTime":"8 weeks","previewFileId":"cb3e045c-ae70-4528-ad5b-a5950e3ea4fe","createdByUserId":"1c184a99-50ac-4e29-8b09-ca93044e307f"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjI1OjA3LjYzNDIyNSIsInVzZXJfaWQiOiI1NzkxZDAyNi05MjFlLTQyYTktYTRjOC02M2M1ZmM4YzA5NWMifQ.gvYTwOvuPSlzn8kpYrxzJxhcnIWtY-THxwaZidZ02Ik' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hotel role mean cost.","maxScore":73,"minScore":11,"description":"Man almost consumer billion. Official letter north only type.\nReligious law door American throughout. Ball matter arm once left position. Measure since responsibility region six hold.","estimatedTime":"3 weeks","previewFileId":"bd33789f-e7b2-4e01-99dd-50972f1fa0dc","createdByUserId":"44496a71-401a-41dc-bcd9-c48d7fbe7cbf"}'

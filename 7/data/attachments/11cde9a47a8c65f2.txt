@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjI1OjA3LjkwNzUwNSIsInVzZXJfaWQiOiI1MzZlOGI3OC0xODRkLTQ5ODgtOWVmZC05Njg3ZTA2NTE2ODcifQ.9ZetZXtHfarwZcIVtmuAT6ZeNjKl2vWHYK7N2-5XOrs' \
+  -H 'content-length: 388' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Development agreement view fight.","maxScore":80,"minScore":17,"description":"Believe shake party no board increase similar. Tax fear watch knowledge back media society. Compare boy line may across.\nMinute management opportunity network.","estimatedTime":"9 weeks","previewFileId":"2f3f5603-f9e1-4f06-ba17-98f742f4c198","createdByUserId":"536e8b78-184d-4988-9efd-9687e0651687"}'
