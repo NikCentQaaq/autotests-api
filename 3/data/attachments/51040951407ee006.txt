@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA1OjU2OjAxLjcwMDUwMSIsInVzZXJfaWQiOiI5MWY4NDdmZi0wODkxLTQ1YmYtYmRlMy01YzNhNDY3MjJlYmEifQ.RF_UW9HngLpo8BEAUf7Q6E-bhg8pNlGyzi-N0CzIJRQ' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Task by down care successful.","maxScore":98,"minScore":16,"description":"Artist resource least media big ok. State world morning magazine much I.\nBill debate myself worry customer beat. Physical effort professor course gas through.","estimatedTime":"8 weeks","previewFileId":"90a2ab67-6d4e-4d7f-bd86-e7e891f2a55f","createdByUserId":"66d1f511-0e60-491c-b5c1-c61417f0d62e"}'
