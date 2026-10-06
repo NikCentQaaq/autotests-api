@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjAyOjU0Ljk2OTU0OCIsInVzZXJfaWQiOiI1MDgyMjAyZC0wNTk5LTRiNzItOWUyMC02MWI3NjJmYjgwNWEifQ.3ArQXCRmjwCcGn6n-W4yqKC3RCrSeATZ7wc2c77JAM8' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure those model know along.","maxScore":50,"minScore":15,"description":"Experience skill whatever development game. Either majority whether wind away great. Remember picture quite say so.","estimatedTime":"4 weeks","previewFileId":"7769c7ba-587e-4a7f-8a67-df7abeabec6d","createdByUserId":"5082202d-0599-4b72-9e20-61b762fb805a"}'

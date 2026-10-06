@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA2VDA2OjAyOjU0LjczMDk2NiIsInVzZXJfaWQiOiJiMWI0MDE1Yi1lYTU5LTQ4NWMtODFmYy0zZWJkZTQ1NjY2MGMifQ.owPLmQWgDippb5-1XLScoD8pdI6Rczugy-kg4l_PXMc' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Especially hundred sometimes school medical appear until road.","maxScore":92,"minScore":22,"description":"Color may nation subject position say speak. Mind consider car society decade bit determine keep. Purpose thus economic degree before himself.","estimatedTime":"7 weeks","previewFileId":"bd596748-5a35-41e5-a02b-738a3a8a6080","createdByUserId":"1232683a-11a0-4693-a96f-c26207356381"}'
