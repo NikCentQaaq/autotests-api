@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA5LjY3NzIyNyIsInVzZXJfaWQiOiIxNmJmNTVkYS03MmE2LTQ3MjctYTcxYS1mMTdiMWRlNjQzZTAifQ.tJz3ETBrNNueBGg8ewbxLumcZg-rkbRIQpser-ZlDC0' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Establish hit customer teacher process week.","maxScore":53,"minScore":11,"description":"Run who life politics great. Year rest three state better treatment resource.\nSite become image officer. Instead step seat level trade. Show share wall until kind kind word.","estimatedTime":"9 weeks","previewFileId":"87487b08-b8d6-4765-a025-9a136543a237","createdByUserId":"16bf55da-72a6-4727-a71a-f17b1de643e0"}'

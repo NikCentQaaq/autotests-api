@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA1LjgwMTQ2MSIsInVzZXJfaWQiOiI2NTliNjdmNy02ZGE1LTQ3NzMtOWQwZC01ZTFjNDEzNDMwNTUifQ.9sdPQqJpEz-ZwWPTlFnOEnJORX7XqsJU_HuCq1vHbPM' \
+  -H 'content-length: 367' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand image subject police.","maxScore":54,"minScore":6,"description":"Check kid everyone describe agency meet above.\nAble station into sound attention its sign. Ever result off consumer family add attention support.","estimatedTime":"8 weeks","previewFileId":"2d2cd249-2f81-4773-8c61-1153daa99109","createdByUserId":"659b67f7-6da5-4773-9d0d-5e1c41343055"}'

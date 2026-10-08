@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA4LjQ4MDYxOCIsInVzZXJfaWQiOiJlYzEyMGM1Ny00YjEwLTQxYjctOTA3MC02M2Y5ZjFmNzM0MjkifQ.LAZHZoxf8URFcGjiG9HUM4KMwzAcR8vGOrz9RqE8DNM' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economy main ever story enter national financial.","maxScore":90,"minScore":25,"description":"Stay wife without reduce. Throughout break million most growth fall. Serious example like study thus a sell.","estimatedTime":"10 weeks","previewFileId":"d0086d84-fd8a-43e2-994b-baa50c1652df","createdByUserId":"ec120c57-4b10-41b7-9070-63f9f1f73429"}'

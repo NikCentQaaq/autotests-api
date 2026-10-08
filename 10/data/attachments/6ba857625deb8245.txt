@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA5Ljk1MTkyNSIsInVzZXJfaWQiOiI3ZTQzOWY5MS04YjYxLTRhNTItOTcwNC1mNTJiN2I5ZGE3NWYifQ._nB-914roJ0c1BStfFER5RqVVkyk3s7uUeNfLQ_2IuQ' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Past allow new one.","maxScore":55,"minScore":3,"description":"Land long despite challenge benefit fill. Child get movie. On sure pick often take.\nWhether card never bag until. Thus rock news these. Two finally rate serve do.","estimatedTime":"7 weeks","previewFileId":"a735b532-3bc5-40ae-a706-b309b6ef7e0e","createdByUserId":"7e439f91-8b61-4a52-9704-f52b7b9da75f"}'

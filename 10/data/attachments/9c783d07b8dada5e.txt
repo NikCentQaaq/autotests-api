@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA3LjU4MjA2NiIsInVzZXJfaWQiOiJlODgwMThhNi05ZTc5LTRhN2MtODQ2OS1jODc3NmM3YWU2OTIifQ.DGGyXy7kYxOUX0KzfMWf9mP7I85fcSVVqJInnSmw9O4' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Meeting compare poor week finish culture.","maxScore":80,"minScore":5,"description":"Make trial Republican region. Beyond pretty truth daughter. Through somebody Congress meeting evening worry drug.\nWind future stuff.","estimatedTime":"7 weeks","previewFileId":"ef93ede2-02eb-412c-84f8-e5f35a620133","createdByUserId":"e88018a6-9e79-4a7c-8469-c8776c7ae692"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f06fb93d-107b-40e8-8abb-5090a841f4a4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA2LjM4NDIxOSIsInVzZXJfaWQiOiI5MjBlNGRhNC1hZDlmLTRhNTktYjhkYy1iMmZmZDY4Y2ViMGEifQ.LUIW32-nDW_6S_4c3bg2oUh3UEU3gj1e9RViId99toU' \
+  -H 'content-length: 281' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Like work paper.","maxScore":57,"minScore":10,"description":"Media short fight to. Meeting easy rich dog theory. Win identify parent sound magazine dream.\nDoctor rest forward bag. Easy manager oil our reason. Again method good charge reality.","estimatedTime":"8 weeks"}'

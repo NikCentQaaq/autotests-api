@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjM0OjA3LjMwODczNCIsInVzZXJfaWQiOiIzM2RjNDBhNi0yNmJkLTQ3NzUtYWIwZS05NDYwNTkyYjUwYzkifQ.iaDDZOc393uI7Mc66Cik3fLwj8_UyzudWRckSKH3FdA' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Society summer sure claim force run.","maxScore":79,"minScore":16,"description":"Probably thank town. Tree the spring focus theory.\nMouth method act value culture. Bill capital contain use certain.","estimatedTime":"6 weeks","previewFileId":"72b83f15-d19b-4f3e-b6a9-34c94cfdc6f3","createdByUserId":"33dc40a6-26bd-4775-ab0e-9460592b50c9"}'
