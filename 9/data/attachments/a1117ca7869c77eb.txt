@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjMzOjUxLjcwNjAwMSIsInVzZXJfaWQiOiJmNjczMTM4ZC01NGE4LTQzOGYtODg5OC1mNWQxMDk1MGQ4NWYifQ.jDDLghugkrENkkYwMENbgDWwbjprA2j_oLt7RgP40pg' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Day left box relationship account.","maxScore":56,"minScore":18,"description":"He rate necessary suffer. Network several actually seem strategy. Resource without pick.\nSave body religious gas history. Guy fill sometimes their level home return night.","estimatedTime":"6 weeks","previewFileId":"ef80b319-2130-4ba2-bc02-aa6d2aca8ceb","createdByUserId":"f673138d-54a8-438f-8898-f5d10950d85f"}'

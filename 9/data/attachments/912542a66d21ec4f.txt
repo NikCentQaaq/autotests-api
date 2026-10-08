@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjMzOjQ5Ljg0MTAwNSIsInVzZXJfaWQiOiJiNGE5YzliOC05ZTFhLTQ3NWMtYTk0YS01OTkyZjVjMzExMDIifQ.QxDtktmKaJvCVcF5pykAx6X0dkG9hEPjnnEHgP7RP3Q' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Glass different development save candidate.","maxScore":66,"minScore":18,"description":"Blood green stay police usually. Break local produce attorney will.\nLikely leader Congress either energy explain leader exactly. Carry create what walk speech out. Behind he wall question character.","estimatedTime":"7 weeks","previewFileId":"0c7cb354-247e-4979-b232-9790186234e4","createdByUserId":"b4a9c9b8-9e1a-475c-a94a-5992f5c31102"}'

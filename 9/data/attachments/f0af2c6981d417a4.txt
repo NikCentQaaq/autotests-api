@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjMzOjUyLjg4MzQzMSIsInVzZXJfaWQiOiI0YjQ0ZGY1My02OGNmLTQ4MmYtOGFiOC01M2QwMzhmZDk3YjkifQ.X3PdSA9YqJgk-ti_9lC06HTjaUhNbxUBBCgRwK3VS9Y' \
+  -H 'content-length: 312' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Base PM change expect him right.","maxScore":57,"minScore":10,"description":"Just recognize responsibility social building fear. Woman at market nearly show many.","estimatedTime":"7 weeks","previewFileId":"e5c13336-8887-49bb-ae1e-96c3295fb9f9","createdByUserId":"4b44df53-68cf-482f-8ab8-53d038fd97b9"}'

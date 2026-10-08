@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/19742f36-18f2-4ee7-8f2e-4f169424a2b2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjMzOjUwLjQ5Mjg0MCIsInVzZXJfaWQiOiI0MjgwNThjNy0xMzdhLTQ0NzMtOTdlMC0wZGZmZDdhNWQ5NjEifQ.u3gLFvV6qDqj1wVskFRgvQi4jrbMKCV_TVcYlMKyCOg' \
+  -H 'content-length: 300' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Shake whose thank prepare total owner human firm.","maxScore":95,"minScore":14,"description":"Support those market water never year group minute. Mean police commercial from subject shake how. Watch ten development interview. Dream similar stuff admit eight if.","estimatedTime":"10 weeks"}'

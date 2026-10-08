@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:33 Make GET request to http://localhost:8000/api/v1/exercises/4bd4c36b-e972-4d74-badc-c549e09f922a
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/exercises/4bd4c36b-e972-4d74-badc-c549e09f922a
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     EXERCISE_ASSERTIONS:exercises.py:66 Check get exercise response
+INFO     EXERCISE_ASSERTIONS:exercises.py:44 Check exercise
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 4bd4c36b-e972-4d74-badc-c549e09f922a
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Trip those door machine friend.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "course_id" equals to 1b51ecfd-1457-4d25-b3fe-bb8fe2c9eb25
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 92
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:35 Check that "order_index" equals to 36
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Bring prepare despite listen sound heart.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 2 weeks
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

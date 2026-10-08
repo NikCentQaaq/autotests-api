@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjMzOjUxLjA4MTY2NSIsInVzZXJfaWQiOiJmOTk3NGRlOS04NmY0LTQ0YTktOTZlYi0zNWZhM2RlMzA4MTYifQ.KrW6-1GZsnDtBpLqArVc4Rg9wvf38tnMIUv2gLsZAgA' \
+  -H 'content-length: 351' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Social operation he force yes ever enter.","maxScore":98,"minScore":22,"description":"Company of idea either sort individual. Individual listen during everyone hour Mrs. Image recently ask for indeed.","estimatedTime":"10 weeks","previewFileId":"654b0444-dc95-4418-8966-acc3752ac33d","createdByUserId":"f9974de9-86f4-44a9-96eb-35fa3de30816"}'

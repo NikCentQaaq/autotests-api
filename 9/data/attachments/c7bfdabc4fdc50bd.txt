@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA1OjMzOjUyLjI5ODA5OCIsInVzZXJfaWQiOiI2YTA4NmRjZC04NmY1LTQ2NWItYTg1MC02ODhlZjgzODE3YjgifQ.36w_vE72rrrb6ihB-Gf1EwrsYLcS24u5pWTTHvFEB0Q' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Point evidence statement fire quickly claim.","maxScore":88,"minScore":24,"description":"Describe full relationship rate side go. Program however letter focus. Participant determine reality daughter condition.\nHer camera bag brother area. Game quite us poor view history.","estimatedTime":"3 weeks","previewFileId":"bef97aa0-190c-40a9-9be7-af5e78fee017","createdByUserId":"6a086dcd-86f5-465b-a850-688ef83817b8"}'
