@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjAyLjI2OTk1NSIsInVzZXJfaWQiOiI5NDkyN2Y2MC02OGU2LTRlZjMtYmZkOS0zYmZlMjAxMDQ3ZDcifQ.4LmI81jkMn2-ngx6qxgRQdM8QT3nNkuWXZpkS7hidpg' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Must movie product son American however while.","maxScore":78,"minScore":7,"description":"Game dog Congress design floor. Data sound buy face these job. Full than leave around. That ask authority dream network.","estimatedTime":"6 weeks","previewFileId":"03bde601-ee4a-478c-a5f6-4e15738524d3","createdByUserId":"94927f60-68e6-4ef3-bfd9-3bfe201047d7"}'

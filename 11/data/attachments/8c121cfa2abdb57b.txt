@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/23ace568-5045-47e4-98b7-e4dbd531b088' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjAzLjA5NTY2MyIsInVzZXJfaWQiOiI2NWQ4NTRkMi00Zjc2LTQwOGEtOTNkNC01MDY5NzZjZGI2NmIifQ.2Gfv0LuuBPzGW7MKRtLnEJjWLpMu6vAk_BQLKOmu84k' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep either form probably institution will over research.","maxScore":75,"minScore":17,"description":"North image figure matter.\nFive social as.\nInvolve technology account enjoy. Woman early Democrat eat several bag represent enter. Theory cup foot pay reduce. Mission wind oil.","estimatedTime":"4 weeks"}'

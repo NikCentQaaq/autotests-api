@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjAzLjY2MDEzNyIsInVzZXJfaWQiOiI3YTVmNWY5Yi0zNWIxLTQzM2MtOWE2NC03NzAyMzZmNDk3NTgifQ.0_a3Lg0qdnWGX5iXvAI3MMlNXrG0_mvjz5evXE29lzE' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear guess tough least attorney scientist mention.","maxScore":100,"minScore":4,"description":"Manage opportunity stage full themselves instead. Unit nor real plan sing administration. Direction true drive candidate huge apply. Every notice national nearly again.","estimatedTime":"5 weeks","previewFileId":"8bc62a13-fb91-4b32-9080-258b985766c5","createdByUserId":"7a5f5f9b-35b1-433c-9a64-770236f49758"}'

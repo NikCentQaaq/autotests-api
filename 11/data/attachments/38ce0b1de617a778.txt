@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjA0LjQ2MjY1OCIsInVzZXJfaWQiOiIwYmU2NzM1Yy1jMzhlLTQ0NTItODA3Yy05MWM0M2U1ZmQxMDQifQ.I1gGwtbhgDf8BrBUX_1gXUw7HuG3RnyCCiug_LvInnA' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Our class reality suddenly answer.","maxScore":53,"minScore":10,"description":"Image report while. Third model side study. Still account night speech need open because.\nParticularly present her suggest business several blue. Successful race whose put blue.","estimatedTime":"5 weeks","previewFileId":"c1382942-4a53-43ac-a6cd-966268b044a2","createdByUserId":"0be6735c-c38e-4452-807c-91c43e5fd104"}'

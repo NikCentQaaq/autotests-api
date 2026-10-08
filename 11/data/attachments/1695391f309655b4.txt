@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjA1LjgwMDYyNSIsInVzZXJfaWQiOiI2MjQzNjY3ZS1mOTFjLTRlZTUtODVhMC0wNDZkODU3ZDM2NzgifQ.JiT04gug2N9QVj4NjiitAsP1Do11hoSW5wPFhSDPYnE' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Note several little.","maxScore":79,"minScore":19,"description":"Free week employee usually any read walk. Past consider again rate practice.\nAge late under far these. Term thing actually. Behavior suffer reason run effort nature.","estimatedTime":"4 weeks","previewFileId":"423e983e-fa07-4db5-be70-2b4523adb256","createdByUserId":"6243667e-f91c-4ee5-85a0-046d857d3678"}'

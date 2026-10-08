@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjA0LjcxNzYyNiIsInVzZXJfaWQiOiI3NTQ0ZWE5Ny0yOThiLTRhNzYtOTRjMy1mY2MyOTVjODZjNTUifQ.DP2AtnU53nbkDn9wMkUtrl_s63GL_gKABRIJeMjEOd8' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Edge interest writer should protect artist.","maxScore":56,"minScore":9,"description":"Story hour necessary natural fine no her million. Health practice particular wait service notice trial. Movement general church want.","estimatedTime":"9 weeks","previewFileId":"2533a924-bfd4-4543-beb0-61f5e153de57","createdByUserId":"7544ea97-298b-4a76-94c3-fcc295c86c55"}'

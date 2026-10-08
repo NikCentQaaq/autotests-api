@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA4VDA2OjA0OjA0LjcxNzYyNiIsInVzZXJfaWQiOiI3NTQ0ZWE5Ny0yOThiLTRhNzYtOTRjMy1mY2MyOTVjODZjNTUifQ.DP2AtnU53nbkDn9wMkUtrl_s63GL_gKABRIJeMjEOd8' \
+  -H 'content-length: 211' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Program I cold wind.","courseId":"420a6666-70d2-4751-a8da-fc2c7e3ee600","maxScore":68,"minScore":3,"orderIndex":75,"description":"Mr business material official item article.","estimatedTime":"3 weeks"}'
