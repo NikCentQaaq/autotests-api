@@ -61,7 +61,7 @@ jobs:
 
       # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
-        uses: actions/cache/restore@v7
+        uses: actions/cache/restore@v6
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
@@ -77,7 +77,7 @@ jobs:
       # Сохраняем историю обратно в кеш
       - name: Cache Coverage  history
         if: always()
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: coverage-history.json
           key: coverage-history-${{ github.run_id }}
@@ -85,7 +85,7 @@ jobs:
       # Загружаем HTML-отчет как артефакт
       - name: Upload Coverage report
         if: always()
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: coverage-report
           path: coverage.html
