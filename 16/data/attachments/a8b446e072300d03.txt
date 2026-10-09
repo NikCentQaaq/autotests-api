@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE3LjYzMTkzOCIsInVzZXJfaWQiOiJjMjNkMjEwOC1lNGI0LTQxOTEtYTcyZC1kNDBmYzAwZDJmOWYifQ.F-Dh2UzWsSpCdEhqtREQ54GB8cwi1MMfM6-wo9Nf8Ow' \
+  -H 'content-length: 354' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mouth address coach he share sea until music.","maxScore":65,"minScore":13,"description":"Him region clearly fight add design sea. Bad life light test here far important. Former book three middle believe.","estimatedTime":"8 weeks","previewFileId":"0353a369-821c-423e-be14-f2ec40d8aed1","createdByUserId":"c23d2108-e4b4-4191-a72d-d40fc00d2f9f"}'

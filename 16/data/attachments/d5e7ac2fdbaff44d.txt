@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE4LjU3MTA3MyIsInVzZXJfaWQiOiIxNTE5MTk4Ny0zNjhhLTQxNmItOGZkOS02OGNmNzU0ZjViNWEifQ.2nKPvoPDo6zBtgUhruIuPHMNqtF5gfmIQKlJtV6GU9g' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Value foot return Mrs ask.","maxScore":81,"minScore":12,"description":"Very arm real realize. Explain control go rather.\nEdge particular although feeling during. Have car apply brother attorney color tell believe.","estimatedTime":"4 weeks","previewFileId":"6128ca36-5c9e-4733-848c-f64394d534d2","createdByUserId":"15191987-368a-416b-8fd9-68cf754f5b5a"}'

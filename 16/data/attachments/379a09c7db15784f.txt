@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE4LjgxMDY1NSIsInVzZXJfaWQiOiI2ZTFjODE4ZC02ZWMyLTQ5YjctYTBhNS1kOGM0MTc1Yzg3NjIifQ.ypK5AJts79-O2UqsARVBjvNj4uyueWkL4eZ5oct2oPs' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Evidence happen most read when change light this.","maxScore":55,"minScore":14,"description":"Country must often join. Forget assume safe despite.\nPick present give difficult health. Themselves office writer artist eight box particular good. Whole woman reflect black factor raise use.","estimatedTime":"7 weeks","previewFileId":"f83a05dd-d719-4a69-b0ad-9c04c979f713","createdByUserId":"6e1c818d-6ec2-49b7-a0a5-d8c4175c8762"}'

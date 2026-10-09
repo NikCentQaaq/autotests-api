@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE4LjgxMDY1NSIsInVzZXJfaWQiOiI2ZTFjODE4ZC02ZWMyLTQ5YjctYTBhNS1kOGM0MTc1Yzg3NjIifQ.ypK5AJts79-O2UqsARVBjvNj4uyueWkL4eZ5oct2oPs' \
+  -H 'content-length: 239' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them allow say herself positive campaign high.","courseId":"e7e64f19-c033-4da6-ae9d-aafd2be48317","maxScore":94,"minScore":8,"orderIndex":8,"description":"Business discussion long sister contain sound.","estimatedTime":"6 weeks"}'

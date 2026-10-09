@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE5LjY0MTc3MiIsInVzZXJfaWQiOiJkNzZmMmU5Yi0zZmIxLTQ5MTQtOGQ2ZC1lYjU0OTU2NDAwOWQifQ.U7xDXZxvUtrCPlT93rWYtF2VOxx-hJQORIDk-ATqxMk' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"History modern party.","maxScore":91,"minScore":22,"description":"Free message surface reality agent short. Approach director prepare have dream work character.\nAdd activity vote else traditional.","estimatedTime":"3 weeks","previewFileId":"bdcb4b26-51b8-4790-9419-1e4fcbfb1725","createdByUserId":"d76f2e9b-3fb1-4914-8d6d-eb549564009d"}'

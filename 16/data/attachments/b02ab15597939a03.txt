@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE3LjM5MzMxOCIsInVzZXJfaWQiOiIyNDllMzY1OS0yNTU0LTQxZmYtYTVhZC1mMzc5MWNmNDgwNzAifQ.hsTY3UagO87FcvF1XELsesTOuk-QxF__V8sBPn_bsWY' \
+  -H 'content-length: 397' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Book campaign everybody group do.","maxScore":87,"minScore":10,"description":"Window improve street responsibility believe actually mean. Both writer base although.\nEarly daughter since message arm the especially race. Seek head sea measure more.","estimatedTime":"9 weeks","previewFileId":"79f0b82b-558d-4bed-b727-a1005e5df6b8","createdByUserId":"249e3659-2554-41ff-a5ad-f3791cf48070"}'

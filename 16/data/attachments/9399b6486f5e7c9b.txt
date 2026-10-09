@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjE5Ljg5Njg5NCIsInVzZXJfaWQiOiIyYmUyNjE3ZC0wMTQ1LTRlYjktOTQxMi1kYjE1MzJiYzY3NGIifQ.WCGiur49uEvx6RD7jB4TkACJatEIYRKuTEGKJVDF3n4' \
+  -H 'content-length: 361' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Situation house also nor court maintain.","maxScore":67,"minScore":8,"description":"Baby door future seat seat throw little. Strategy decide candidate note arm. Score risk author degree go. Age design dream own.","estimatedTime":"1 weeks","previewFileId":"7e3879af-7948-472f-8cb0-ef20508c4609","createdByUserId":"2be2617d-0145-4eb9-9412-db1532bc674b"}'
