@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjMzLjQzODE4MSIsInVzZXJfaWQiOiI2MzJjNWQxMy1lNTdjLTQ3OTYtOGJhNy02MjIxZjA2NTdmY2YifQ.sKVmi-awfsWUagidkG4rL_NhUj-0glyM2krLpXwKR-w' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Party fact bank action choice.","maxScore":93,"minScore":28,"description":"Financial night actually keep. Ball how soldier.\nDetail word maintain business collection. Responsibility once weight story. Increase must education build debate color imagine sort.","estimatedTime":"1 weeks","previewFileId":"bf1f3e7c-df91-4145-a26f-f57cee7de723","createdByUserId":"632c5d13-e57c-4796-8ba7-6221f0657fcf"}'

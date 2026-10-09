@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjM0LjM1MDg3NCIsInVzZXJfaWQiOiI0N2NmNWFmOC1kYTA5LTQyY2EtODYxZi1lMGMyMGI1ZWRlYzMifQ.P4F458rVCk87RHGtRlNWG-flJjUAqD9Os403_o4Jubo' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy who network staff our talk clear just.","maxScore":82,"minScore":23,"description":"Interview speech gun it other process by. Check care ready later street yes. But approach open financial buy deep represent.\nHeavy many unit card. Fall interview argue now.","estimatedTime":"4 weeks","previewFileId":"098222c5-dbc2-489b-af06-0cea058bc661","createdByUserId":"47cf5af8-da09-42ca-861f-e0c20b5edec3"}'

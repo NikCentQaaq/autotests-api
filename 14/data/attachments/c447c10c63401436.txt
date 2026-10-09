@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjMxLjk2OTgwOSIsInVzZXJfaWQiOiJmZmRhZDA5Ni1mNTg3LTQ2N2QtOTk2My00YTgzMGE2MzVmMWMifQ.sz3mZBUwLGPEH5vMfX_c5s8MnU9sUnb8k_Qu-NsN6VQ' \
+  -H 'content-length: 353' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Worker sure player head.","maxScore":100,"minScore":28,"description":"Ready degree do left. Attack usually party change example section.\nHospital our expert pressure. Option manage place brother mother.","estimatedTime":"9 weeks","previewFileId":"d28d1110-c8b8-448c-a6fb-64f5c73bb360","createdByUserId":"ffdad096-f587-467d-9963-4a830a635f1c"}'

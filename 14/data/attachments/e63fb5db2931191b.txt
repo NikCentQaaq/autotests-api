@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:63 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Make GET request to http://localhost:8000/api/v1/courses?userId=ea5bacd2-1423-4d42-880e-7961390e046e
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=ea5bacd2-1423-4d42-880e-7961390e046e
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get courses response
+INFO     ERRORS_ASSERTIONS:errors.py:23 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to 063d4fc5-4dfd-4831-bd8c-fb854f690406
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Turn each a investment people quickly probably.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 51
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 12
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Administration billion trip charge among leave. Run guy decide stage. Surface share occur about world effort data up. Store could place.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 1 weeks
+INFO     FILES_ASSERTIONS:files.py:55 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to d7464682-480b-4f2b-a412-8543822dfdaa
+INFO     BASE_ASSERTIONS:base.py:35 Check that "url" equals to http://localhost:8000/static/tests/712ea7bf-e564-431d-ad92-eba7af0f39af.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "filename" equals to 712ea7bf-e564-431d-ad92-eba7af0f39af.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:33 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to ea5bacd2-1423-4d42-880e-7961390e046e
+INFO     BASE_ASSERTIONS:base.py:35 Check that "email" equals to triciaclay@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check that "last_name" equals to Jones
+INFO     BASE_ASSERTIONS:base.py:35 Check that "first_name" equals to Anthony
+INFO     BASE_ASSERTIONS:base.py:35 Check that "middle_name" equals to Julia
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

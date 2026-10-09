@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjMyLjI0NTU2NyIsInVzZXJfaWQiOiI2ZmE0NDJhYy0xMGQzLTRkZWEtYTEyNC0yMWFiMGVmZWMxN2IifQ.6IwDlm301leglBA-1f0W8QBO4Mc8MAKDu6AyaH2MasA' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep forward skill fast news thousand hear.","maxScore":64,"minScore":13,"description":"Husband garden put indicate believe deep want decade. My low land pretty music federal.\nDrop road mention. Response law play want you job institution. Sound number experience brother yes.","estimatedTime":"5 weeks","previewFileId":"1f1b1c92-8b88-4689-a48f-a33fb6690169","createdByUserId":"6fa442ac-10d3-4dea-a124-21ab0efec17b"}'

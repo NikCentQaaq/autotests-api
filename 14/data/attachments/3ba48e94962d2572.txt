@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjMzLjE2MjcyMyIsInVzZXJfaWQiOiJjZTMxNTE3OS1kNTZmLTQ0M2QtYjIyZi0wMTIwODNiZGMwM2UifQ.QJ_50vMBHEE3KbU4nySGPyFSibgpGQ6ClfKVyV91x5Y' \
+  -H 'content-length: 243' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Program seven onto risk budget particularly.","courseId":"61165b6b-00cb-4728-9416-33d440541d3d","maxScore":92,"minScore":12,"orderIndex":40,"description":"Section financial even ten unit member generation.","estimatedTime":"5 weeks"}'

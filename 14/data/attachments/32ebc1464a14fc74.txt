@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjM1LjU0NjgzMiIsInVzZXJfaWQiOiI4Njc0NDFhZC0yNWIzLTQyNjMtOWM0ZC0xZTA5MWY2Y2ZjODkifQ.lF9hSLjE4_0PS1tcP8Xyjr1fa2afov2ruyZ1KpqmJ1A' \
+  -H 'content-length: 374' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Turn expect painting tonight he buy hope property.","maxScore":69,"minScore":9,"description":"View success which laugh should budget.\nFocus interview fish talk first interest former. Charge worker attorney on north whether.","estimatedTime":"5 weeks","previewFileId":"30b3313f-fb43-4810-a618-0c8721931bee","createdByUserId":"867441ad-25b3-4263-9c4d-1e091f6cfc89"}'

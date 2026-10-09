@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjMzLjE2MjcyMyIsInVzZXJfaWQiOiJjZTMxNTE3OS1kNTZmLTQ0M2QtYjIyZi0wMTIwODNiZGMwM2UifQ.QJ_50vMBHEE3KbU4nySGPyFSibgpGQ6ClfKVyV91x5Y' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beat whether work picture successful form.","maxScore":61,"minScore":15,"description":"Type guess history begin nothing ahead. Million only religious. Your professional show I article seem exactly.\nPeople degree develop relate identify particularly. They music oil remain.","estimatedTime":"3 weeks","previewFileId":"ca842ff4-e2d2-4a56-883f-d472523f5a61","createdByUserId":"ce315179-d56f-443d-b22f-012083bdc03e"}'
