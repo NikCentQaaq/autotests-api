@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:91 Check create course response
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Example throw local sign lawyer outside.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 50
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 20
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Main wife put job make behavior chance expert. Song respond middle week born number two.
+Develop material travel itself chair religious measure. Society environmental good term see.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 8 weeks
+INFO     BASE_ASSERTIONS:base.py:35 Check that "preview_file_id" equals to 94575825-2719-431a-bd14-6bc3e2719466
+INFO     BASE_ASSERTIONS:base.py:35 Check that "created_by_user_id" equals to c98e6fad-25a4-4018-9d01-aedc3ddac90a
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

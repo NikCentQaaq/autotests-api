@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjUzLjE4MTY2MCIsInVzZXJfaWQiOiIxZWU4ODYxNy00MGUyLTRiY2UtODJlZS05ZjhmNmFlYWQxZjAifQ.8SntmAvbf0Reg6wVFo7KqKndwHAsWgHyJW71teXiGCk' \
+  -H 'content-length: 194' \
+  -H 'content-type: application/json' \
+  -d '{"title":"For win phone suffer behind.","courseId":"1e554ded-d4b6-4899-8f97-384ae4b990b9","maxScore":79,"minScore":3,"orderIndex":46,"description":"But stand see old.","estimatedTime":"2 weeks"}'

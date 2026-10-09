@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjUyLjU5NzgyMiIsInVzZXJfaWQiOiIzZTg0ZTVlZi0yMmYyLTRhZWMtOTdmNi0xZGFhMDk5M2FkYTUifQ.qK-YuEhw0kTKGzg2RaxKNb8CrYCsVOzIDcRecyJYB5Y' \
+  -H 'content-length: 386' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Defense to network fund.","maxScore":70,"minScore":7,"description":"Under fine conference believe analysis.\nDirector guess beautiful share national local let. Save senior act produce yourself end. Seat billion hard task job cell early.","estimatedTime":"2 weeks","previewFileId":"07a5c48e-c8de-45cc-a358-0572d343a417","createdByUserId":"3e84e5ef-22f2-4aec-97f6-1daa0993ada5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjUwLjIxMzg1NCIsInVzZXJfaWQiOiJjOThlNmZhZC0yNWE0LTQwMTgtOWQwMS1hZWRjM2RkYWM5MGEifQ.MKXi8nv8DPlmvkuK8ePb0PsvOOJBoOUDH6PoEC3QlU4' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Example throw local sign lawyer outside.","maxScore":50,"minScore":20,"description":"Main wife put job make behavior chance expert. Song respond middle week born number two.\nDevelop material travel itself chair religious measure. Society environmental good term see.","estimatedTime":"8 weeks","previewFileId":"94575825-2719-431a-bd14-6bc3e2719466","createdByUserId":"c98e6fad-25a4-4018-9d01-aedc3ddac90a"}'

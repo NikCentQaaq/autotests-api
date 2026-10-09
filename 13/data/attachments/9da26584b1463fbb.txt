@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/afba9243-84a6-4505-90fe-e50ad35de58c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjQ5LjU4MTM2MyIsInVzZXJfaWQiOiIwODZlYWMzMS1jMjk5LTQwMGItOTRmMC01NjQ4MzgwZjViNDQifQ.x54KyqtiBv4_tf7Qf-FPVsW7TkWG-P-PZosL_UwcEhQ' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Great claim reason agency son lay.","maxScore":70,"minScore":4,"description":"Box born to mean series. Could stop society range put. As way recent measure make hard opportunity behind. Pass situation page seek.\nSix ten market. Keep analysis water get whether sing simple enter.","estimatedTime":"8 weeks"}'

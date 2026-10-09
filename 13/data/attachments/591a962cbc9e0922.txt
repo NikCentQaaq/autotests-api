@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjUzLjE4MTY2MCIsInVzZXJfaWQiOiIxZWU4ODYxNy00MGUyLTRiY2UtODJlZS05ZjhmNmFlYWQxZjAifQ.8SntmAvbf0Reg6wVFo7KqKndwHAsWgHyJW71teXiGCk' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cut government value few tonight change enough.","maxScore":94,"minScore":7,"description":"Accept manage test practice. Artist response bag two lawyer relationship owner.\nOutside hour plan home within. Small travel fine growth among.","estimatedTime":"2 weeks","previewFileId":"31954508-3281-40fd-9075-d94f841f88cf","createdByUserId":"1ee88617-40e2-4bce-82ee-9f8f6aead1f0"}'

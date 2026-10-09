@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjQ5LjU4MTM2MyIsInVzZXJfaWQiOiIwODZlYWMzMS1jMjk5LTQwMGItOTRmMC01NjQ4MzgwZjViNDQifQ.x54KyqtiBv4_tf7Qf-FPVsW7TkWG-P-PZosL_UwcEhQ' \
+  -H 'content-length: 363' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Room house police power mind nearly message.","maxScore":67,"minScore":18,"description":"Evening official force dog people ahead. Imagine smile sing three.\nThousand long light hand. Visit add personal gas course.","estimatedTime":"6 weeks","previewFileId":"742dded5-8c97-4534-aead-51150b1ea8c9","createdByUserId":"086eac31-c299-400b-94f0-5648380f5b44"}'

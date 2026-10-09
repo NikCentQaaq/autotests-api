@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjQ4Ljk3NDQzOSIsInVzZXJfaWQiOiI4OTgzNjZiYS04MWEwLTRlZjUtOWZkZi1kNDAxMDBkMWY0YTgifQ.Uqu2e_3GXcN75D2oP_pkOZ0APz7Vf6M8mimHdBrFrpw' \
+  -H 'content-length: 347' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Level somebody three American.","maxScore":73,"minScore":14,"description":"Kitchen tax since identify real yet. Because audience section best hundred baby. Walk side trial material beautiful white.","estimatedTime":"6 weeks","previewFileId":"79439024-a0cd-413b-99e8-56cde8973275","createdByUserId":"898366ba-81a0-4ef5-9fdf-d40100d1f4a8"}'

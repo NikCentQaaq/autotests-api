@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU1OjUxLjk1ODMyMiIsInVzZXJfaWQiOiI3M2FiMWVkZS1mMzQ0LTQzYTgtOWExNy0yZjFiZDY2MDhjNDkifQ.6jDxpXkjWxfTdOjQO-NOfrS7GKLhn9XQrtA2G_hHfz0' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Early four visit evening daughter its read.","maxScore":70,"minScore":27,"description":"Reach itself last toward must. Dream customer truth operation. Group either shoulder cell. Phone above miss off service we father.","estimatedTime":"4 weeks","previewFileId":"d8ff5b07-196f-4c07-8376-b02df4f1e5d3","createdByUserId":"73ab1ede-f344-43a8-9a17-2f1bd6608c49"}'
