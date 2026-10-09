@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjAyLjk4Nzc4MiIsInVzZXJfaWQiOiJhZmQ5NTBkYS0xZjFiLTRjOGQtODRjNC1iNmU4MWUzZTllMDcifQ.mJdFDSapHZWEaVxw7zjXd4WxM6DVN7Un5CormwFxC54' \
+  -H 'content-length: 434' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reduce act staff I attention down commercial guy.","maxScore":61,"minScore":7,"description":"Woman ground share low still realize. View writer price since send.\nThank now manager and. Score price there everybody. Treat our forward speech everyone several. Might top join paper laugh.","estimatedTime":"9 weeks","previewFileId":"ce6d94a3-c672-4e58-84b0-806ab085a6ad","createdByUserId":"afd950da-1f1b-4c8d-84c4-b6e81e3e9e07"}'

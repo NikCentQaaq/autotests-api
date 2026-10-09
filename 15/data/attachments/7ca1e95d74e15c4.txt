@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjAyLjA2NTU1MCIsInVzZXJfaWQiOiJlYjQyNWI1Zi02NTMzLTQyMjctOTIzMC04NjI3MGFiYzhlZmEifQ.qClKJMpaobEOIw4dQkr3kOw28R3y3ZzADrx20tzEM_s' \
+  -H 'content-length: 442' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Become hit affect debate drive record particular.","maxScore":91,"minScore":6,"description":"Blood sort yourself sell. Against the bed think.\nBlue agency production cause traditional. Exactly someone woman ten. Little serious in now realize check maybe president. Relationship culture power.","estimatedTime":"7 weeks","previewFileId":"013b851d-7396-4569-8f4c-88a70655365d","createdByUserId":"eb425b5f-6533-4227-9230-86270abc8efa"}'

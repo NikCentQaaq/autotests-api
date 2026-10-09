@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjAwLjg3NDUwNCIsInVzZXJfaWQiOiJjMWYwNzkzMi01ZTBiLTQyYWYtYTZlNC01NTE3NjIyZDNhNWIifQ.fBE7-fcS84s2L7jV33WigVvTw75rGM-KMQUTa-9FUDk' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tax site scientist state such professor member.","maxScore":51,"minScore":11,"description":"Lot people authority open address peace business. Pull day culture investment customer while necessary.\nUntil establish instead shake expert under lay. People easy game ground meet teach treat.","estimatedTime":"5 weeks","previewFileId":"f898982a-0cf6-46a3-8ae6-619fe2de46ac","createdByUserId":"c1f07932-5e0b-42af-a6e4-5517622d3a5b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjU5LjA4NzAwNiIsInVzZXJfaWQiOiJmZDZhY2U4MC04Y2M0LTRmZjctYTMyOS0zY2ZlYTU3ZWRkNjYifQ.LB9RbE5I2rdfA6PU6FJ_eysPISdznHu6Br2SAuMNtic' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leg set good science.","maxScore":96,"minScore":14,"description":"North way fire believe. Make forward prove. Cultural war young base of.\nBaby certain nothing morning send society. Personal happy agree. Ground quickly partner read rock boy culture.","estimatedTime":"6 weeks","previewFileId":"126ceb9d-7c5d-4fdd-b87c-a96f2c105d36","createdByUserId":"fd6ace80-8cc4-4ff7-a329-3cfea57edd66"}'

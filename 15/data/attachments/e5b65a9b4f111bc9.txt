@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjAyLjk4Nzc4MiIsInVzZXJfaWQiOiJhZmQ5NTBkYS0xZjFiLTRjOGQtODRjNC1iNmU4MWUzZTllMDcifQ.mJdFDSapHZWEaVxw7zjXd4WxM6DVN7Un5CormwFxC54' \
+  -H 'content-length: 219' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Know six sell make check analysis.","courseId":"e9376da0-fb9a-4b49-a585-5a7c9e5df842","maxScore":97,"minScore":10,"orderIndex":84,"description":"They election friend kitchen early.","estimatedTime":"10 weeks"}'

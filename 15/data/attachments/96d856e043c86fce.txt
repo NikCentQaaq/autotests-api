@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjAwLjU5OTI2NCIsInVzZXJfaWQiOiI1MTVlZjVlYi00MjZlLTQ0ZjYtYjcwMi0yMGU0MDEyZjBjYTgifQ.mphHOGIR7QDgm8mPH0aFUut6GsGbgWBlSPPrFICB_Nc' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Low and order.","maxScore":63,"minScore":26,"description":"At bill production lose. Allow student indeed sign candidate never.\nRadio maybe player discover. Such which always story usually.","estimatedTime":"2 weeks","previewFileId":"c2c1adec-9533-41c2-8c98-80ee0c418e58","createdByUserId":"515ef5eb-426e-44f6-b702-20e4012f0ca8"}'

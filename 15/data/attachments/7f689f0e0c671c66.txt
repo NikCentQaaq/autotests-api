@@ -1,0 +1,33 @@
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:63 Results directory does not exist, creating: /home/runner/work/autotests-api/autotests-api/coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:33 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:33 Make GET request to http://localhost:8000/api/v1/courses?userId=f8e00e17-a163-4a51-a0af-685477d6f218
+INFO     HTTP_CLIENT:event_hooks.py:43 Got response 200 OK from http://localhost:8000/api/v1/courses?userId=f8e00e17-a163-4a51-a0af-685477d6f218
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:69 Check get courses response
+INFO     ERRORS_ASSERTIONS:errors.py:23 Check that length of "courses" equals to 1
+INFO     COURSES_ASSERTIONS:courses.py:43 Check course
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to be800319-9266-4639-9d3b-52c86cc41fff
+INFO     BASE_ASSERTIONS:base.py:35 Check that "title" equals to Less matter floor.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "max_score" equals to 76
+INFO     BASE_ASSERTIONS:base.py:35 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:35 Check that "description" equals to Study available west drive debate ten describe politics. Five industry environment coach consider let Mr. Ready reason cold political.
+INFO     BASE_ASSERTIONS:base.py:35 Check that "estimated_time" equals to 5 weeks
+INFO     FILES_ASSERTIONS:files.py:55 Check file
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to c5ea7d45-14ce-4791-9409-ff5cf9c1cf8c
+INFO     BASE_ASSERTIONS:base.py:35 Check that "url" equals to http://localhost:8000/static/tests/5848e8fb-ebaf-4b12-823f-bbf60ba9138c.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "filename" equals to 5848e8fb-ebaf-4b12-823f-bbf60ba9138c.png
+INFO     BASE_ASSERTIONS:base.py:35 Check that "directory" equals to tests
+INFO     USERS_ASSERTIONS:users.py:33 Check user
+INFO     BASE_ASSERTIONS:base.py:35 Check that "id" equals to f8e00e17-a163-4a51-a0af-685477d6f218
+INFO     BASE_ASSERTIONS:base.py:35 Check that "email" equals to ruizjanet@example.net
+INFO     BASE_ASSERTIONS:base.py:35 Check that "last_name" equals to Vang
+INFO     BASE_ASSERTIONS:base.py:35 Check that "first_name" equals to Chad
+INFO     BASE_ASSERTIONS:base.py:35 Check that "middle_name" equals to Derek
+INFO     SCHEMA_ASSERTIONS:schema.py:20 Validating JSON schema

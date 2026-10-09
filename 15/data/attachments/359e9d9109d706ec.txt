@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU5OjAxLjc5MTk3NCIsInVzZXJfaWQiOiIwNjQwN2E0OS0zOTgwLTQ4N2MtYmYzZS05ZmQ2ODU1ZThkMWEifQ.HOteHUoP8JgV-_1v1Xp7S0g2Jr21VsoFqz2hwQPBsYM' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open center part key number become three.","maxScore":94,"minScore":7,"description":"Blood him suffer raise my. Whether answer spend week yes newspaper.\nInformation land message statement under network.\nSong in left stop computer reason. Thank every dinner guess.","estimatedTime":"3 weeks","previewFileId":"aa28ea3f-fe6d-4d62-af67-ade78655be29","createdByUserId":"06407a49-3980-487c-bf3e-9fd6855e8d1a"}'

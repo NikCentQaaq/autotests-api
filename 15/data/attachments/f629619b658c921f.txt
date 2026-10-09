@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0e9e8f34-8f2c-4d3f-9e1e-271d68541aa2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTEwLTA5VDEwOjU4OjU5LjA4NzAwNiIsInVzZXJfaWQiOiJmZDZhY2U4MC04Y2M0LTRmZjctYTMyOS0zY2ZlYTU3ZWRkNjYifQ.LB9RbE5I2rdfA6PU6FJ_eysPISdznHu6Br2SAuMNtic' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Set weight people consumer vote speech.","maxScore":65,"minScore":7,"description":"Somebody step high fish. Anything they seat however half.\nBefore wish economic assume feeling. Up always poor agree. Billion low watch send day. Collection reduce law each.","estimatedTime":"2 weeks"}'
