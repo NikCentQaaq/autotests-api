@@ -56,6 +56,12 @@ jobs:
           python -m pip install --upgrade pip   
           pip install -r requirements.txt 
           
+
+      # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
+      # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
+      - name: Run API tests with pytest and generate Allure results
+        run: |
+          pytest -m regression --alluredir=allure-results --numprocesses 2  
           
           
 
@@ -89,17 +95,6 @@ jobs:
         with:
           name: coverage-report
           path: coverage.html
-            
-
-
-      
-
-
-      # 7. Шаг для запуска тестов с использованием pytest и генерации отчётов Allure
-      # Запускаем тесты, отмеченные как "regression", генерируем результаты для Allure
-      - name: Run API tests with pytest and generate Allure results
-        run: |
-          pytest -m regression --alluredir=allure-results --numprocesses 2  
         
 
 #  папка с результатами — allure-results. Сохраняем как артефакт в джобе run-tests,
