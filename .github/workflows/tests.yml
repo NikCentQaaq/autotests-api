@@ -65,7 +65,7 @@ jobs:
           
         
 
-      # Восстанавливаем историю покрытия из кеша
+      # Восстанавливаем   историю покрытия из кеша
       - name: Restore Coverage history
         uses: actions/cache/restore@v6
         with:
@@ -74,6 +74,8 @@ jobs:
           restore-keys: |
             coverage-history-
             
+
+
 
        # Генерируем HTML-отчет и обновляем историю
       - name: Generate Coverage report
