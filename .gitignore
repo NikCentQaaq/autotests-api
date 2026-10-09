@@ -10,13 +10,11 @@ __pycache__/
 # pytest
 .pytest_cache/
 
-# Environment variables
-.env
-
-
 # allure
 allure-results
 allure-report
 
-
-differents
+coverage-results
+coverege.html
+coverage-report.json
+coverage-history.json
