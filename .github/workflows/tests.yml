@@ -63,7 +63,7 @@ jobs:
         run: |
           pytest -m regression --alluredir=allure-results --numprocesses 2  
           
-          
+        
 
       # Восстанавливаем историю покрытия из кеша
       - name: Restore Coverage history
