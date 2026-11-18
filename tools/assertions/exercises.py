@@ -20,6 +20,7 @@ def assert_create_exercise_response(
     :param response: Ответ API с данными задания.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
+
     logger.info('Check create exercise response')
 
     assert_equal(response.exercise.title, request.title, "title")
@@ -41,7 +42,9 @@ def assert_exercise(actual: ExerciseSchema, expected: ExerciseSchema):
     :param expected: Ожидаемые данные задания.
     :raises AssertionError: Если хотя бы одно поле не совпадает.
     """
+
     logger.info('Check exercise')
+
     assert_equal(actual.id, expected.id, "id")
     assert_equal(actual.title, expected.title, "title")
     assert_equal(actual.course_id, expected.course_id, "course_id")
@@ -63,7 +66,9 @@ def assert_get_exercise_response(
     :param create_exercise_response: Ответ API при создании задания.
     :raises AssertionError: Если данные задания не совпадают.
     """
+
     logger.info('Check get exercise response')
+
     assert_exercise(get_exercise_response.exercise, create_exercise_response.exercise)
 
 
@@ -79,6 +84,7 @@ def assert_update_exercise_response(
      :param request: Запрос к API при создании задания.
     :raises AssertionError: Если данные задания не совпадают.
     """
+    
     logger.info('Check update exercise response')
 
     assert_equal(response.exercise.title, request.title, "title")

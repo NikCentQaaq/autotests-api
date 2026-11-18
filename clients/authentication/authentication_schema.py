@@ -32,5 +32,3 @@ class RefreshRequestSchema(BaseModel):
     """
     refresh_token: str = Field(alias="refreshToken", default_factory=fake.sentence)
 
-
-    #ccc
