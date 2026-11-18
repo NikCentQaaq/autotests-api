@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ1LjQ3MTM0MyIsInVzZXJfaWQiOiJmOWY5M2NjYS01ZmMxLTQ0MjctOTkwMy1iZTA2ZDNkM2Y3ZDIifQ.JXDKGfgRI7gSMoP8WOlsW2ABGvby3a8qo6Ub5dJwpis' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Few relationship area push.","maxScore":58,"minScore":9,"description":"Now describe thing. A arrive key yes and. Sort drop close baby policy pretty.\nInstitution war figure stay program serious.","estimatedTime":"8 weeks","previewFileId":"95aa14ef-c8a4-49c5-a52f-c1c57355b766","createdByUserId":"f9f93cca-5fc1-4427-9903-be06d3d3f7d2"}'

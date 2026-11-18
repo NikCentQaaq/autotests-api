@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ3LjQ2OTQyMCIsInVzZXJfaWQiOiJmMTY1ZGY2Mi0wYjdmLTQ4OTQtOTBjMS1hNDg2ZjYxYTkyYWQifQ.oRqzuUW0Onzko3KCohuJUtn6cSjvQmvjExZr9aOyudw' \
+  -H 'content-length: 423' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Garden tax tell artist line itself need more.","maxScore":93,"minScore":30,"description":"Sign look deep girl beautiful course. Second thousand fact.\nGrow onto stage nearly task onto worry. Place politics though soldier and. Window prove whom center try billion may power.","estimatedTime":"4 weeks","previewFileId":"5fe2284a-05f6-4384-9afd-3c076d0470ca","createdByUserId":"f165df62-0b7f-4894-90c1-a486f61a92ad"}'

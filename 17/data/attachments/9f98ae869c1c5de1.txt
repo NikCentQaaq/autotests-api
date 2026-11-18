@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ0LjY4NDUyMSIsInVzZXJfaWQiOiI4MTg1NzVmOC04Njg1LTRlZmMtOGIyYi0xZjYxM2UzYmRjNTEifQ.3jRSSXRXVGckKVqiN7bovNGu0CYpJU7mu8ZGBqROiTI' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ask spend lot find.","maxScore":84,"minScore":11,"description":"Model writer high action do be. Entire matter fine camera. Gas job society common indeed between. Decision culture over over.","estimatedTime":"1 weeks","previewFileId":"0306dc35-d1d9-42f9-bebb-61d756c7dfa9","createdByUserId":"818575f8-8685-4efc-8b2b-1f613e3bdc51"}'

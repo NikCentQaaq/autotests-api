@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ3LjcwNjAxMiIsInVzZXJfaWQiOiI2Njg0OTI5OC0wZWU4LTRjMGMtOTY3OC0yMTU4NjNjMDA2OTEifQ.FabU-YyYRjf5j8zruA5uKeKgKnWDmuv-jPn3IfNuVKo' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rather personal resource do law board.","maxScore":99,"minScore":17,"description":"Cold what less popular. High provide morning figure develop.\nMagazine hundred senior unit. Plant themselves idea energy apply range among.","estimatedTime":"2 weeks","previewFileId":"2dc6ab8c-5790-4106-99d8-6fa15d4e3fb6","createdByUserId":"66849298-0ee8-4c0c-9678-215863c00691"}'

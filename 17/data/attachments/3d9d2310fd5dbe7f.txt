@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ2LjY5NzEyNSIsInVzZXJfaWQiOiIyYjcxYzVhMC01NGE4LTQ5YmMtOGQwMi03OTRkZjRiMzQ1YzUifQ.5JnqGLyp4Ql426EWjkVx24zYiPmQ-86dAulM8nGn0DM' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern may throw need.","maxScore":93,"minScore":30,"description":"Property yourself sit turn matter usually government.\nReach become scientist surface fast.\nInstitution at product single close billion course. Away face result student.","estimatedTime":"8 weeks","previewFileId":"e24a75a1-5439-4f52-8c98-63138d99d3d6","createdByUserId":"2b71c5a0-54a8-49bc-8d02-794df4b345c5"}'

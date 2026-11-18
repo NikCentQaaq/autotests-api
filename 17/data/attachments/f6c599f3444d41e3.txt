@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ1LjcwNzY5OCIsInVzZXJfaWQiOiIzYThiMjgzZS0zZGFjLTRiYzgtYWU5Ny02MGFhZGRhNmM0NmIifQ.X1TrD09Tbfax_-waqMizUG7mHed6smrnw1DCjpdxtJE' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Possible middle improve item.","maxScore":98,"minScore":7,"description":"Call back often yard. May finish true away. Individual join quality four then member.\nPattern throw reduce edge score.","estimatedTime":"2 weeks","previewFileId":"b03869cf-7ea7-42bf-8fcd-048dd28d63cd","createdByUserId":"3a8b283e-3dac-4bc8-ae97-60aadda6c46b"}'

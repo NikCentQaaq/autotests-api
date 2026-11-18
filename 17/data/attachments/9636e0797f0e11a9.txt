@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI2LTExLTE4VDE5OjQxOjQ2LjQ2MTY4NCIsInVzZXJfaWQiOiIzNmRiMTQ2OC00NjRhLTRmNzctOGYyNC0wZjE2NTczYzk3ZjUifQ.N_SbrG5lN5lLlk2S6RgSH1CX29wlbYFURfxXVRdSu6Y' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Argue hold place care join.","maxScore":86,"minScore":27,"description":"Represent their start. Key successful head none number.\nMovie respond board dinner scene win. True while conference wonder.","estimatedTime":"8 weeks","previewFileId":"955df483-5698-47af-8027-e55be09307c7","createdByUserId":"36db1468-464a-4f77-8f24-0f16573c97f5"}'
